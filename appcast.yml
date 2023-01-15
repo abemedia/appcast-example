@@ -1,0 +1,19 @@
+title: Example
+description: An example app.
+
+source:
+  repo: github://abemedia/appcast-example
+
+target:
+  repo: github://abemedia/appcast-example
+
+apt:
+  disabled: false
+
+sparkle:
+  disabled: false
+  params:
+    - os: windows
+      installerArguments: /passive
+    - os: macos
+      minimumSystemVersion: '10.13.0'

@@ -1,0 +1,21 @@
+builds:
+  - targets:
+      - go_first_class
+    flags:
+      - -trimpath
+
+archives:
+  - format: binary
+
+nfpms:
+  - id: packages
+    file_name_template: '{{ .ConventionalFileName }}'
+    homepage: https://github.com/abemedia/appcast-example
+    description: An example app.
+    maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+    license: MIT
+    vendor: AppCast
+    section: utils
+    formats:
+      - deb
+      - rpm
