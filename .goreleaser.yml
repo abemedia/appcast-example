@@ -1,0 +1,50 @@
+builds:
+  - id: all
+    targets:
+      # - darwin_amd64_v1
+      # - darwin_arm64
+      - linux_386
+      - linux_amd64_v1
+      - linux_arm_6
+      - linux_arm64
+    flags:
+      - -trimpath
+    ignore:
+      - goos: windows
+
+  - id: windows
+    targets:
+      - windows_386
+      - windows_amd64_v1
+    hooks:
+      post:
+        - cp build/windows/msi.wxs  build/windows/dll/x{{- if eq .Arch "amd64" }}64{{- else }}86{{ end }}/WinSparkle.dll {{ dir .Path }}/
+        - >
+          wixl 
+          -a x{{- if eq .Arch "amd64" }}64{{- else }}86{{ end }}
+          -D Platform=x{{- if eq .Arch "amd64" }}64{{- else }}86{{ end }}
+          -D ProductVersion={{ .RawVersion }} 
+          -o dist/{{ .ProjectName }}_{{ .Version }}_Windows_{{- if eq .Arch "amd64" }}64{{- else }}32{{ end }}-bit.msi
+          {{ dir .Path }}/msi.wxs
+
+archives:
+  - builds:
+      - none
+    format: binary
+
+nfpms:
+  - id: packages
+    file_name_template: '{{ .ConventionalFileName }}'
+    homepage: https://github.com/abemedia/appcast-example
+    description: An example app.
+    maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+    license: MIT
+    vendor: AppCast
+    section: utils
+    formats:
+      - deb
+      - rpm
+
+release:
+  extra_files:
+    - glob: ./dist/*.msi
