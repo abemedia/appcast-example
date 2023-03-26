@@ -1,0 +1,29 @@
+Package: appcast-example
+Version: 1.1.0
+Architecture: amd64
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 764
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.1.0_amd64.deb
+Size: 379810
+MD5sum: 203c26a21c356cbaf7f87166fa205e8f
+SHA1: 4abf23c5f603ccb7897542eb62e75a3bc14e36ad
+SHA256: afc735ee867cec3e7ac2e4f7ad0051215cfa92c619d0d0712f58a7a54acefe83
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
+
+Package: appcast-example
+Version: 1.0.0
+Architecture: amd64
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 764
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.0.0_amd64.deb
+Size: 379812
+MD5sum: 247f419b01e945d81c3b5509f9191691
+SHA1: 68925d5ae8b3278847dee8b667dbf5a0d8ba96f1
+SHA256: 281114341e11d501a976c1030a91e29d2f1cccc586f55605a5387a719a764bda
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
