@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+	<channel>
+		<title>Example</title>
+		<description>An example app.</description>
+		<item>
+			<title>v1.1.0</title>
+			<pubDate>Sun, 26 Mar 2023 16:25:33 UTC</pubDate>
+			<description><![CDATA[
+				<h2>Changelog</h2>
+				<ul>
+					<li>d6541be Initial commit</li>
+				</ul>
+			]]></description>
+			<sparkle:version>1.1.0</sparkle:version>
+			<enclosure url="https://github.com/abemedia/appcast-example/releases/download/v1.1.0/appcast-example_1.1.0_Windows_32-bit.msi" sparkle:os="windows-x86" sparkle:version="1.1.0" sparkle:dsaSignature="MEQCIF9YJ0OkurekSOFY91lQkpGznu210QPZY7JTzOs3wf5TAiBnU7lqVW2RJAE4//+fhdi+nMY3/KJbzt6aAItHIiRA6g" sparkle:installerArguments="/passive" length="1525248" type="application/x-msi" />
+		</item>
+		<item>
+			<title>v1.1.0</title>
+			<pubDate>Sun, 26 Mar 2023 16:25:33 UTC</pubDate>
+			<description><![CDATA[
+				<h2>Changelog</h2>
+				<ul>
+					<li>d6541be Initial commit</li>
+				</ul>
+			]]></description>
+			<sparkle:version>1.1.0</sparkle:version>
+			<enclosure url="https://github.com/abemedia/appcast-example/releases/download/v1.1.0/appcast-example_1.1.0_Windows_64-bit.msi" sparkle:os="windows-x64" sparkle:version="1.1.0" sparkle:dsaSignature="MEQCIDXJVrVPSop0PJeA8enzEdtJh1ejN0scP9U0TkK32kUeAiABAZRoLPy9bpNgARvJdWMhJnTtkQNG2oXT8UkzS8lHCQ" sparkle:installerArguments="/passive" length="1686016" type="application/x-msi" />
+		</item>
+		<item>
+			<title>v1.0.0</title>
+			<pubDate>Sun, 26 Mar 2023 16:25:18 UTC</pubDate>
+			<description><![CDATA[
+				<h2>Changelog</h2>
+				<ul>
+					<li>d6541be Initial commit</li>
+				</ul>
+			]]></description>
+			<sparkle:version>1.0.0</sparkle:version>
+			<enclosure url="https://github.com/abemedia/appcast-example/releases/download/v1.0.0/appcast-example_1.0.0_Windows_32-bit.msi" sparkle:os="windows-x86" sparkle:version="1.0.0" sparkle:dsaSignature="MEQCIFinoqEvTQJ2SvDsjVq/dV4Lclq5AjZy5peTHFV1d8wUAiBWuWkUfscHAIhO8mZhq39uR6TTD1030aTTOPBckVJoJw" sparkle:installerArguments="/passive" length="1525248" type="application/x-msi" />
+		</item>
+		<item>
+			<title>v1.0.0</title>
+			<pubDate>Sun, 26 Mar 2023 16:25:18 UTC</pubDate>
+			<description><![CDATA[
+				<h2>Changelog</h2>
+				<ul>
+					<li>d6541be Initial commit</li>
+				</ul>
+			]]></description>
+			<sparkle:version>1.0.0</sparkle:version>
+			<enclosure url="https://github.com/abemedia/appcast-example/releases/download/v1.0.0/appcast-example_1.0.0_Windows_64-bit.msi" sparkle:os="windows-x64" sparkle:version="1.0.0" sparkle:dsaSignature="MEQCIA6V24FfbErY2uJaTKePlfDRU0Fr56tIj6E1hz2dF8k5AiABlbUPetjnlZTdqVE3wG6S2MGyjBxAcoGEk2M4uS9HdQ" sparkle:installerArguments="/passive" length="1686016" type="application/x-msi" />
+		</item>
+	</channel>
+</rss>
