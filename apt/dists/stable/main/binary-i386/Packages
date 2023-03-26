@@ -1,0 +1,29 @@
+Package: appcast-example
+Version: 1.1.0
+Architecture: i386
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 748
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.1.0_i386.deb
+Size: 375330
+MD5sum: a0287d63bdc9f5d5fb0cf272b6d7b5d1
+SHA1: 08e03ed234951eec5e2aa6bc4f16f016a9a591bc
+SHA256: 07d6cc1ce54bfce87b87b3546e0ea4447ff177b757c97189077c285ae2fce6df
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
+
+Package: appcast-example
+Version: 1.0.0
+Architecture: i386
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 748
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.0.0_i386.deb
+Size: 375332
+MD5sum: 655e7aeba6ed5a73f877f2953a0160e9
+SHA1: fcb41cea9e2faa7baf0412807804cf2a16fbf750
+SHA256: 5b52f85930ace16ce34e2baef9130e2b9bab2bf3ce902642fcf559af90045d7b
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
