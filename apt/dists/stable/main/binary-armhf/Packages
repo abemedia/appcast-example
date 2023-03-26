@@ -1,0 +1,29 @@
+Package: appcast-example
+Version: 1.1.0
+Architecture: armhf
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 896
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.1.0_armhf.deb
+Size: 371302
+MD5sum: b1cb10ddc20d32247270cd71d07398fd
+SHA1: d6c81337e43465dd1d5fdbeca42ac9263dc7b743
+SHA256: 18be0a852ce3e25b38609c9a74782e449884b6cc223213319bbf71ed9e75b9e6
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
+
+Package: appcast-example
+Version: 1.0.0
+Architecture: armhf
+Maintainer: Adam Bouqdib <adam@abemedia.co.uk>
+Installed-Size: 896
+Priority: optional
+Section: utils
+Filename: pool/main/a/appcast-example/appcast-example_1.0.0_armhf.deb
+Size: 371306
+MD5sum: 5fce72922e49d2196db714faaa9cc2f3
+SHA1: 32e4433d18fa3b2b8948a03e61d17fc12c433dc0
+SHA256: 3d1eaf9eab5e8b9bbebbec92c33ca3b307d790dc4362922a515196607618dc84
+Homepage: https://github.com/abemedia/appcast-example
+Description: An example app.
